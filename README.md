@@ -80,3 +80,5 @@ If Pantegi can see this file, Hourly Chime feature can be enabled. Enabling it w
 # License
 
 Pantegi is distributed under WTFPL.
+
+Material Design Icons, used as weather icons, are licensed under Apache License 2.0.
