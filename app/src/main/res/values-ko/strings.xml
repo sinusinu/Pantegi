@@ -1,0 +1,64 @@
+<resources>
+    <string name="app_name">판때기</string>
+
+    <string name="calendar_sunday">일</string>
+    <string name="calendar_monday">월</string>
+    <string name="calendar_tuesday">화</string>
+    <string name="calendar_wednesday">수</string>
+    <string name="calendar_thursday">목</string>
+    <string name="calendar_friday">금</string>
+    <string name="calendar_saturday">토</string>
+
+    <string name="weather_date_sdf_format">M월 d일 E요일</string>
+    <string name="weather_time_sdf_format">aa h:mm</string>
+    <string name="weather_now_header">현재</string>
+    <string name="weather_pm10_header">미세</string>
+    <string name="weather_pm25_header">초미세</string>
+    <string name="weather_humidity_header">습도</string>
+    <string name="weather_wind_header">풍속</string>
+    <string name="weather_uvi_header">자외선</string>
+    <string name="weather_5day_header_c_format">{date} {week}</string>
+    <string name="weather_5day_sunday">일</string>
+    <string name="weather_5day_monday">월</string>
+    <string name="weather_5day_tuesday">화</string>
+    <string name="weather_5day_wednesday">수</string>
+    <string name="weather_5day_thursday">목</string>
+    <string name="weather_5day_friday">금</string>
+    <string name="weather_5day_saturday">토</string>
+    <string name="weather_last_updated_format">날씨 정보 마지막 업데이트: %s (%s)</string>
+    <string name="weather_last_updated_time_format">HH:mm</string>
+    <string name="weather_desc_error">오류</string>
+    <string name="weather_desc_thunderstorm">폭풍우</string>
+    <string name="weather_desc_drizzle">빗방울</string>
+    <string name="weather_desc_heavyrain">폭우</string>
+    <string name="weather_desc_rain">비</string>
+    <string name="weather_desc_heavysnow">폭설</string>
+    <string name="weather_desc_showersnow">진눈깨비</string>
+    <string name="weather_desc_snow">눈</string>
+    <string name="weather_desc_foggy">안개</string>
+    <string name="weather_desc_sandstorm">황사</string>
+    <string name="weather_desc_tornado">태풍</string>
+    <string name="weather_desc_cloudy_atmos">흐림</string>
+    <string name="weather_desc_clear">맑음</string>
+    <string name="weather_desc_cloudy">구름 많음</string>
+    <string name="weather_desc_overcast">흐림</string>
+
+    <string name="settings_title">설정</string>
+    <string name="settings_background_title">배경</string>
+    <string name="settings_background_wallpaper">시스템 배경</string>
+    <string name="settings_background_wallpaper_dim">시스템 배경 (어둡게)</string>
+    <string name="settings_background_wallpaper_change">시스템 배경 바꾸기</string>
+    <string name="settings_background_blank">검정</string>
+    <string name="settings_background_videos">동영상</string>
+    <string name="settings_background_videos_dim">동영상 (어둡게)</string>
+    <string name="settings_background_videos_unavailable">배경 동영상 파일이 없습니다.</string>
+    <string name="settings_cuckoo_title">정각 알림</string>
+    <string name="settings_cuckoo_enable">켜기</string>
+    <string name="settings_cuckoo_disable">끄기</string>
+    <string name="settings_cuckoo_unavailable">알림 효과음 파일이 없습니다. 정각 알림을 사용할 수 없습니다.</string>
+    <string name="settings_cuckoo_hourly_title">정각 알림을 울릴 시간 (0시~23시)</string>
+    <string name="settings_cuckoo_hourly_time_0">0</string>
+    <string name="settings_cuckoo_hourly_time_1">6</string>
+    <string name="settings_cuckoo_hourly_time_2">12</string>
+    <string name="settings_cuckoo_hourly_time_3">18</string>
+</resources>

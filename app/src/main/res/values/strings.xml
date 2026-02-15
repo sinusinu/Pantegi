@@ -1,0 +1,66 @@
+<resources>
+    <string name="app_name">Pantegi</string>
+    <string name="placeholder" translatable="false">-</string>
+
+    <string name="calendar_sunday">Su</string>
+    <string name="calendar_monday">Mo</string>
+    <string name="calendar_tuesday">Tu</string>
+    <string name="calendar_wednesday">We</string>
+    <string name="calendar_thursday">Th</string>
+    <string name="calendar_friday">Fr</string>
+    <string name="calendar_saturday">Sa</string>
+
+    <string name="weather_date_sdf_format">EEE, MMM d</string>
+    <string name="weather_time_sdf_format">h:mm aa</string>
+    <string name="weather_now_header">Now</string>
+    <string name="weather_pm10_header">PM10</string>
+    <string name="weather_pm25_header">PM2.5</string>
+    <string name="weather_humidity_header">Humidity</string>
+    <string name="weather_wind_header">Wind</string>
+    <string name="weather_uvi_header">UV</string>
+    <string name="weather_subtext_indicator" translatable="false">●</string>
+    <string name="weather_5day_header_c_format">{week} {date}</string>
+    <string name="weather_5day_sunday">S</string>
+    <string name="weather_5day_monday">M</string>
+    <string name="weather_5day_tuesday">T</string>
+    <string name="weather_5day_wednesday">W</string>
+    <string name="weather_5day_thursday">T</string>
+    <string name="weather_5day_friday">F</string>
+    <string name="weather_5day_saturday">S</string>
+    <string name="weather_last_updated_format">Last Updated: %s (%s)</string>
+    <string name="weather_last_updated_time_format">HH:mm</string>
+    <string name="weather_desc_error">Error</string>
+    <string name="weather_desc_thunderstorm">Storm</string>
+    <string name="weather_desc_drizzle">Drizzle</string>
+    <string name="weather_desc_heavyrain">Rain</string>
+    <string name="weather_desc_rain">Rain</string>
+    <string name="weather_desc_heavysnow">Snow</string>
+    <string name="weather_desc_showersnow">Snow</string>
+    <string name="weather_desc_snow">Snow</string>
+    <string name="weather_desc_foggy">Foggy</string>
+    <string name="weather_desc_sandstorm">Sand</string>
+    <string name="weather_desc_tornado">Tornado</string>
+    <string name="weather_desc_cloudy_atmos">Cloudy</string>
+    <string name="weather_desc_clear">Clear</string>
+    <string name="weather_desc_cloudy">Cloudy</string>
+    <string name="weather_desc_overcast">Overcast</string>
+
+    <string name="settings_title">Settings</string>
+    <string name="settings_background_title">Background</string>
+    <string name="settings_background_wallpaper">System</string>
+    <string name="settings_background_wallpaper_dim">System (Dim)</string>
+    <string name="settings_background_wallpaper_change">Change system wallpaper</string>
+    <string name="settings_background_blank">Blank</string>
+    <string name="settings_background_videos">Videos</string>
+    <string name="settings_background_videos_dim">Videos (Dim)</string>
+    <string name="settings_background_videos_unavailable">No video background files found.</string>
+    <string name="settings_cuckoo_title">Hourly Chime</string>
+    <string name="settings_cuckoo_enable">Enable</string>
+    <string name="settings_cuckoo_disable">Disable</string>
+    <string name="settings_cuckoo_unavailable">Chime audio not found, Hourly Chime cannot be enabled.</string>
+    <string name="settings_cuckoo_hourly_title">Play hourly chime on hour (0~23)</string>
+    <string name="settings_cuckoo_hourly_time_0">0</string>
+    <string name="settings_cuckoo_hourly_time_1">6</string>
+    <string name="settings_cuckoo_hourly_time_2">12</string>
+    <string name="settings_cuckoo_hourly_time_3">18</string>
+</resources>

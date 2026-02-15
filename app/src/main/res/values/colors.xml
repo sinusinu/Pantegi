@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="bg_dim_overlay">#80000000</color>
+    <color name="fg_white">#FFFFFFFF</color>
+    <color name="fg_gray">#FFD0D0D0</color>
+    <color name="fg_shadow">#80000000</color>
+
+    <color name="calendar_saturday">#FF5A8BD5</color>
+    <color name="calendar_sunday">#FFD75F5F</color>
+    <color name="calendar_today_bg">#FFFFFFFF</color>
+    <color name="calendar_today_fg">#FF000000</color>
+
+    <color name="weather_subtext_indicator_blue">#FF5F5FD7</color>
+    <color name="weather_subtext_indicator_green">#FF5FD75F</color>
+    <color name="weather_subtext_indicator_yellow">#FFD7D75F</color>
+    <color name="weather_subtext_indicator_orange">#FFD7875F</color>
+    <color name="weather_subtext_indicator_red">#FFE75F5F</color>
+</resources>

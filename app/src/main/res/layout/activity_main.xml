@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/fl_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    tools:context=".MainActivity">
+
+    <VideoView
+        android:id="@+id/vv_main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone" />
+
+    <View
+        android:id="@+id/v_main_dim_overlay"
+        android:background="@color/bg_dim_overlay"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+    <LinearLayout
+        android:id="@+id/ll_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:paddingLeft="@dimen/_18sdp"
+        android:paddingTop="@dimen/_6sdp"
+        android:paddingRight="@dimen/_18sdp"
+        android:paddingBottom="@dimen/_6sdp">
+
+        <androidx.fragment.app.FragmentContainerView
+            android:id="@+id/fcv_main_left"
+            android:name="kr.pe.sinu.pantegi.WeatherFragment"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="8" />
+
+        <Space
+            android:layout_width="@dimen/_8sdp"
+            android:layout_height="match_parent"
+            android:layout_weight="0" />
+
+        <androidx.fragment.app.FragmentContainerView
+            android:id="@+id/fcv_main_right"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="7" />
+
+    </LinearLayout>
+</FrameLayout>

@@ -1,0 +1,527 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:ignore="NestedWeights"
+    tools:context=".CalendarFragment">
+
+    <LinearLayout
+        android:id="@+id/ll_calendar_w"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tv_calendar_w_1"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_40sdp"
+            android:layout_weight="1"
+            android:gravity="center_horizontal|center_vertical"
+            android:text="@string/calendar_sunday"
+            android:textColor="@color/calendar_sunday"
+            android:textSize="@dimen/_18sdp" />
+
+        <TextView
+            android:id="@+id/tv_calendar_w_2"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_40sdp"
+            android:layout_weight="1"
+            android:gravity="center_horizontal|center_vertical"
+            android:text="@string/calendar_monday"
+            android:textSize="@dimen/_18sdp" />
+
+        <TextView
+            android:id="@+id/tv_calendar_w_3"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_40sdp"
+            android:layout_weight="1"
+            android:gravity="center_horizontal|center_vertical"
+            android:text="@string/calendar_tuesday"
+            android:textSize="@dimen/_18sdp" />
+
+        <TextView
+            android:id="@+id/tv_calendar_w_4"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_40sdp"
+            android:layout_weight="1"
+            android:gravity="center_horizontal|center_vertical"
+            android:text="@string/calendar_wednesday"
+            android:textSize="@dimen/_18sdp" />
+
+        <TextView
+            android:id="@+id/tv_calendar_w_5"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_40sdp"
+            android:layout_weight="1"
+            android:gravity="center_horizontal|center_vertical"
+            android:text="@string/calendar_thursday"
+            android:textSize="@dimen/_18sdp" />
+
+        <TextView
+            android:id="@+id/tv_calendar_w_6"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_40sdp"
+            android:layout_weight="1"
+            android:gravity="center_horizontal|center_vertical"
+            android:text="@string/calendar_friday"
+            android:textSize="@dimen/_18sdp" />
+
+        <TextView
+            android:id="@+id/tv_calendar_w_7"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_40sdp"
+            android:layout_weight="1"
+            android:gravity="center_horizontal|center_vertical"
+            android:text="@string/calendar_saturday"
+            android:textColor="@color/calendar_saturday"
+            android:textSize="@dimen/_18sdp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_calendar_1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tv_calendar_1_1"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_40sdp"
+            android:layout_weight="1"
+            android:gravity="center_horizontal|center_vertical"
+            android:text="@string/placeholder"
+            android:textColor="@color/calendar_sunday"
+            android:textSize="@dimen/_18sdp" />
+
+        <TextView
+            android:id="@+id/tv_calendar_1_2"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_40sdp"
+            android:layout_weight="1"
+            android:gravity="center_horizontal|center_vertical"
+            android:text="@string/placeholder"
+            android:textSize="@dimen/_18sdp" />
+
+        <TextView
+            android:id="@+id/tv_calendar_1_3"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_40sdp"
+            android:layout_weight="1"
+            android:gravity="center_horizontal|center_vertical"
+            android:text="@string/placeholder"
+            android:textSize="@dimen/_18sdp" />
+
+        <TextView
+            android:id="@+id/tv_calendar_1_4"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_40sdp"
+            android:layout_weight="1"
+            android:gravity="center_horizontal|center_vertical"
+            android:text="@string/placeholder"
+            android:textSize="@dimen/_18sdp" />
+
+        <TextView
+            android:id="@+id/tv_calendar_1_5"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_40sdp"
+            android:layout_weight="1"
+            android:gravity="center_horizontal|center_vertical"
+            android:text="@string/placeholder"
+            android:textSize="@dimen/_18sdp" />
+
+        <TextView
+            android:id="@+id/tv_calendar_1_6"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_40sdp"
+            android:layout_weight="1"
+            android:gravity="center_horizontal|center_vertical"
+            android:text="@string/placeholder"
+            android:textSize="@dimen/_18sdp" />
+
+        <TextView
+            android:id="@+id/tv_calendar_1_7"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_40sdp"
+            android:layout_weight="1"
+            android:gravity="center_horizontal|center_vertical"
+            android:text="@string/placeholder"
+            android:textColor="@color/calendar_saturday"
+            android:textSize="@dimen/_18sdp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_calendar_2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tv_calendar_2_1"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_40sdp"
+            android:layout_weight="1"
+            android:gravity="center_horizontal|center_vertical"
+            android:text="@string/placeholder"
+            android:textColor="@color/calendar_sunday"
+            android:textSize="@dimen/_18sdp" />
+
+        <TextView
+            android:id="@+id/tv_calendar_2_2"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_40sdp"
+            android:layout_weight="1"
+            android:gravity="center_horizontal|center_vertical"
+            android:text="@string/placeholder"
+            android:textSize="@dimen/_18sdp" />
+
+        <TextView
+            android:id="@+id/tv_calendar_2_3"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_40sdp"
+            android:layout_weight="1"
+            android:gravity="center_horizontal|center_vertical"
+            android:text="@string/placeholder"
+            android:textSize="@dimen/_18sdp" />
+
+        <TextView
+            android:id="@+id/tv_calendar_2_4"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_40sdp"
+            android:layout_weight="1"
+            android:gravity="center_horizontal|center_vertical"
+            android:text="@string/placeholder"
+            android:textSize="@dimen/_18sdp" />
+
+        <TextView
+            android:id="@+id/tv_calendar_2_5"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_40sdp"
+            android:layout_weight="1"
+            android:gravity="center_horizontal|center_vertical"
+            android:text="@string/placeholder"
+            android:textSize="@dimen/_18sdp" />
+
+        <TextView
+            android:id="@+id/tv_calendar_2_6"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_40sdp"
+            android:layout_weight="1"
+            android:gravity="center_horizontal|center_vertical"
+            android:text="@string/placeholder"
+            android:textSize="@dimen/_18sdp" />
+
+        <TextView
+            android:id="@+id/tv_calendar_2_7"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_40sdp"
+            android:layout_weight="1"
+            android:gravity="center_horizontal|center_vertical"
+            android:text="@string/placeholder"
+            android:textColor="@color/calendar_saturday"
+            android:textSize="@dimen/_18sdp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_calendar_3"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tv_calendar_3_1"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_40sdp"
+            android:layout_weight="1"
+            android:gravity="center_horizontal|center_vertical"
+            android:text="@string/placeholder"
+            android:textColor="@color/calendar_sunday"
+            android:textSize="@dimen/_18sdp" />
+
+        <TextView
+            android:id="@+id/tv_calendar_3_2"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_40sdp"
+            android:layout_weight="1"
+            android:gravity="center_horizontal|center_vertical"
+            android:text="@string/placeholder"
+            android:textSize="@dimen/_18sdp" />
+
+        <TextView
+            android:id="@+id/tv_calendar_3_3"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_40sdp"
+            android:layout_weight="1"
+            android:gravity="center_horizontal|center_vertical"
+            android:text="@string/placeholder"
+            android:textSize="@dimen/_18sdp" />
+
+        <TextView
+            android:id="@+id/tv_calendar_3_4"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_40sdp"
+            android:layout_weight="1"
+            android:gravity="center_horizontal|center_vertical"
+            android:text="@string/placeholder"
+            android:textSize="@dimen/_18sdp" />
+
+        <TextView
+            android:id="@+id/tv_calendar_3_5"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_40sdp"
+            android:layout_weight="1"
+            android:gravity="center_horizontal|center_vertical"
+            android:text="@string/placeholder"
+            android:textSize="@dimen/_18sdp" />
+
+        <TextView
+            android:id="@+id/tv_calendar_3_6"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_40sdp"
+            android:layout_weight="1"
+            android:gravity="center_horizontal|center_vertical"
+            android:text="@string/placeholder"
+            android:textSize="@dimen/_18sdp" />
+
+        <TextView
+            android:id="@+id/tv_calendar_3_7"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_40sdp"
+            android:layout_weight="1"
+            android:gravity="center_horizontal|center_vertical"
+            android:text="@string/placeholder"
+            android:textColor="@color/calendar_saturday"
+            android:textSize="@dimen/_18sdp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_calendar_4"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tv_calendar_4_1"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_40sdp"
+            android:layout_weight="1"
+            android:gravity="center_horizontal|center_vertical"
+            android:text="@string/placeholder"
+            android:textColor="@color/calendar_sunday"
+            android:textSize="@dimen/_18sdp" />
+
+        <TextView
+            android:id="@+id/tv_calendar_4_2"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_40sdp"
+            android:layout_weight="1"
+            android:gravity="center_horizontal|center_vertical"
+            android:text="@string/placeholder"
+            android:textSize="@dimen/_18sdp" />
+
+        <TextView
+            android:id="@+id/tv_calendar_4_3"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_40sdp"
+            android:layout_weight="1"
+            android:gravity="center_horizontal|center_vertical"
+            android:text="@string/placeholder"
+            android:textSize="@dimen/_18sdp" />
+
+        <TextView
+            android:id="@+id/tv_calendar_4_4"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_40sdp"
+            android:layout_weight="1"
+            android:gravity="center_horizontal|center_vertical"
+            android:text="@string/placeholder"
+            android:textSize="@dimen/_18sdp" />
+
+        <TextView
+            android:id="@+id/tv_calendar_4_5"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_40sdp"
+            android:layout_weight="1"
+            android:gravity="center_horizontal|center_vertical"
+            android:text="@string/placeholder"
+            android:textSize="@dimen/_18sdp" />
+
+        <TextView
+            android:id="@+id/tv_calendar_4_6"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_40sdp"
+            android:layout_weight="1"
+            android:gravity="center_horizontal|center_vertical"
+            android:text="@string/placeholder"
+            android:textSize="@dimen/_18sdp" />
+
+        <TextView
+            android:id="@+id/tv_calendar_4_7"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_40sdp"
+            android:layout_weight="1"
+            android:gravity="center_horizontal|center_vertical"
+            android:text="@string/placeholder"
+            android:textColor="@color/calendar_saturday"
+            android:textSize="@dimen/_18sdp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_calendar_5"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tv_calendar_5_1"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_40sdp"
+            android:layout_weight="1"
+            android:gravity="center_horizontal|center_vertical"
+            android:text="@string/placeholder"
+            android:textColor="@color/calendar_sunday"
+            android:textSize="@dimen/_18sdp" />
+
+        <TextView
+            android:id="@+id/tv_calendar_5_2"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_40sdp"
+            android:layout_weight="1"
+            android:gravity="center_horizontal|center_vertical"
+            android:text="@string/placeholder"
+            android:textSize="@dimen/_18sdp" />
+
+        <TextView
+            android:id="@+id/tv_calendar_5_3"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_40sdp"
+            android:layout_weight="1"
+            android:gravity="center_horizontal|center_vertical"
+            android:text="@string/placeholder"
+            android:textSize="@dimen/_18sdp" />
+
+        <TextView
+            android:id="@+id/tv_calendar_5_4"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_40sdp"
+            android:layout_weight="1"
+            android:gravity="center_horizontal|center_vertical"
+            android:text="@string/placeholder"
+            android:textSize="@dimen/_18sdp" />
+
+        <TextView
+            android:id="@+id/tv_calendar_5_5"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_40sdp"
+            android:layout_weight="1"
+            android:gravity="center_horizontal|center_vertical"
+            android:text="@string/placeholder"
+            android:textSize="@dimen/_18sdp" />
+
+        <TextView
+            android:id="@+id/tv_calendar_5_6"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_40sdp"
+            android:layout_weight="1"
+            android:gravity="center_horizontal|center_vertical"
+            android:text="@string/placeholder"
+            android:textSize="@dimen/_18sdp" />
+
+        <TextView
+            android:id="@+id/tv_calendar_5_7"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_40sdp"
+            android:layout_weight="1"
+            android:gravity="center_horizontal|center_vertical"
+            android:text="@string/placeholder"
+            android:textColor="@color/calendar_saturday"
+            android:textSize="@dimen/_18sdp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_calendar_6"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tv_calendar_6_1"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_40sdp"
+            android:layout_weight="1"
+            android:gravity="center_horizontal|center_vertical"
+            android:text="@string/placeholder"
+            android:textColor="@color/calendar_sunday"
+            android:textSize="@dimen/_18sdp" />
+
+        <TextView
+            android:id="@+id/tv_calendar_6_2"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_40sdp"
+            android:layout_weight="1"
+            android:gravity="center_horizontal|center_vertical"
+            android:text="@string/placeholder"
+            android:textSize="@dimen/_18sdp" />
+
+        <TextView
+            android:id="@+id/tv_calendar_6_3"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_40sdp"
+            android:layout_weight="1"
+            android:gravity="center_horizontal|center_vertical"
+            android:text="@string/placeholder"
+            android:textSize="@dimen/_18sdp" />
+
+        <TextView
+            android:id="@+id/tv_calendar_6_4"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_40sdp"
+            android:layout_weight="1"
+            android:gravity="center_horizontal|center_vertical"
+            android:text="@string/placeholder"
+            android:textSize="@dimen/_18sdp" />
+
+        <TextView
+            android:id="@+id/tv_calendar_6_5"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_40sdp"
+            android:layout_weight="1"
+            android:gravity="center_horizontal|center_vertical"
+            android:text="@string/placeholder"
+            android:textSize="@dimen/_18sdp" />
+
+        <TextView
+            android:id="@+id/tv_calendar_6_6"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_40sdp"
+            android:layout_weight="1"
+            android:gravity="center_horizontal|center_vertical"
+            android:text="@string/placeholder"
+            android:textSize="@dimen/_18sdp" />
+
+        <TextView
+            android:id="@+id/tv_calendar_6_7"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_40sdp"
+            android:layout_weight="1"
+            android:gravity="center_horizontal|center_vertical"
+            android:text="@string/placeholder"
+            android:textColor="@color/calendar_saturday"
+            android:textSize="@dimen/_18sdp" />
+    </LinearLayout>
+</LinearLayout>

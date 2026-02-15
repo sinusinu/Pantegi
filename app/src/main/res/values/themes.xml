@@ -1,0 +1,19 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Pantegi" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowShowWallpaper">true</item>
+        <item name="android:colorBackgroundCacheHint">@null</item>
+        <item name="android:textViewStyle">@style/TextView.Pantegi</item>
+    </style>
+
+    <style name="Theme.Pantegi" parent="Base.Theme.Pantegi" />
+
+    <style name="TextView.Pantegi" parent="android:Widget.TextView">
+        <item name="android:textColor">@color/fg_white</item>
+        <item name="android:shadowColor">@color/fg_shadow</item>
+        <item name="android:shadowDx">2</item>
+        <item name="android:shadowDy">2</item>
+        <item name="android:shadowRadius">2</item>
+    </style>
+</resources>
