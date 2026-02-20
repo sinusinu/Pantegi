@@ -33,9 +33,9 @@
         <androidx.fragment.app.FragmentContainerView
             android:id="@+id/fcv_main_left"
             android:name="kr.pe.sinu.pantegi.WeatherFragment"
-            android:layout_width="match_parent"
+            android:layout_width="wrap_content"
             android:layout_height="match_parent"
-            android:layout_weight="8" />
+            android:layout_weight="0" />
 
         <Space
             android:layout_width="@dimen/_8sdp"
@@ -44,9 +44,9 @@
 
         <androidx.fragment.app.FragmentContainerView
             android:id="@+id/fcv_main_right"
-            android:layout_width="match_parent"
+            android:layout_width="wrap_content"
             android:layout_height="match_parent"
-            android:layout_weight="7" />
+            android:layout_weight="1" />
 
     </LinearLayout>
 </FrameLayout>
