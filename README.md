@@ -14,9 +14,7 @@ Wallpaper is [Star trails in the night sky over dark landscape photo](https://un
 
 You are REQUIRED to do some coding!
 
-There will be no prebuilt APKs provided, and the source code cannot be built as it is because some components are missing.
-
-This is due to my belief that this kind of application requires personalization beyond something that can be simply put into some "Settings", and I don't want to devote so much effort for this dingus.
+In current status, there will be no prebuilt APKs provided, and the source code cannot be built as it is because some components are missing.
 
 Android Studio or an equivalent development environment is required.
 
@@ -34,14 +32,25 @@ For weather provider, if you can spare a OpenWeatherMap API key, there is a `OWM
 
 ## Make Pantegi use your data providers
 
-After creating your own providers, you need to make Pantegi use them by changing a line in `onCreate` function of `CalendarFragment` and `WeatherFragment`.
+After creating your own providers, you need to make Pantegi use them.
 
-Look for a line marked with `// TODO: change me!` comment. For example:
+For weather, look for this line in `WeatherFragment`:
+
+```java
+// TODO: change me!
+wp = new MyWeatherProvider();
+```
+
+Look for a line marked with `// TODO: change me!` comment.
+
+Then change it to something like this:
 
 ```java
 // TODO: change me!
 wp = new OWMWeatherProvider("40.9", "-112.6", "OpenWeatherMap API Key");
 ```
+
+Do the same for holidays in `CalendarFragment`.
 
 After this is done, You will be able to build and install Pantegi to your devices.
 
